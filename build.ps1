@@ -7,7 +7,7 @@ if (-not (Test-Path -LiteralPath $csc)) { throw "找不到 csc.exe：$csc" }
 $out  = Join-Path $root "build"
 New-Item -ItemType Directory -Force -Path $out | Out-Null
 
-$src  = @("Native.cs","Inspector.cs","Brand.cs","Theme.cs","ConfirmDlg.cs","AboutDlg.cs","MainForm.cs","Program.cs") |
+$src  = @("AssemblyVersion.cs","Native.cs","Inspector.cs","Brand.cs","Theme.cs","ConfirmDlg.cs","AboutDlg.cs","MainForm.cs","Program.cs") |
         ForEach-Object { Join-Path $root ("src\" + $_) }
 $refs = @("/reference:System.dll","/reference:System.Drawing.dll","/reference:System.Windows.Forms.dll")
 $ico  = Join-Path $root "src\app.ico"
