@@ -118,6 +118,7 @@ Windows 的句柄是**进程私有的内核对象引用**，第三方程序没�
 ```
 HandleGuard\
 ├─ src\
+│  ├─ AssemblyVersion.cs 程序集与文件版本信息（1.4.0，exe 属性页可见）
 │  ├─ Brand.cs          **品牌几何唯一来源**（蓝色圆角方块 + 白 H + 右侧弧），exe 图标与界面 logo 都调它
 │  ├─ IconShot.cs       图标生成器，把 Brand 渲染成多尺寸 ico
 │  ├─ Native.cs         Win32/NT 调用、句柄与线程枚举、处置动作、令牌特权启用
