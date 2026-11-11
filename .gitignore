@@ -1,0 +1,10 @@
+# 编译产物
+build/
+*.exe
+*.pdb
+
+# 由 make-icon.ps1 从 src/Brand.cs 重新生成，不入库
+src/app.ico
+
+# 图标设计过程中的临时素材
+src/icon-source.png

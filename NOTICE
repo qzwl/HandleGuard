@@ -1,0 +1,14 @@
+HandleGuard — 句柄 / 线程治理台
+
+Copyright 2026 周木木（qzwl）
+来源仓库：https://github.com/qzwl/HandleGuard
+
+本作品以 Apache License 2.0 授权，全文见 LICENSE 文件。
+
+署名要求（引用、二次分发、商业使用均适用）：
+
+1. 保留本 NOTICE 文件全文；
+2. 注明来源与仓库链接 https://github.com/qzwl/HandleGuard；
+3. 对代码做过修改的，注明"基于 HandleGuard 修改"。
+
+以上要求由 Apache-2.0 第 4 条（保留版权、专利、商标与归属声明，保留 NOTICE）与本 NOTICE 的附加归属声明共同覆盖；Apache-2.0 本身允许商用，附加要求仅为"注明来源与链接"，不额外限制使用方式。
